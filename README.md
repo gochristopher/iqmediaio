@@ -1,14 +1,26 @@
-# IQ Media Group — archived-site recreation
+# IQ Media Group — 2026 website
 
-Static responsive recreation based on the Wayback Machine capture dated 2025-02-02:
-https://web.archive.org/web/20250202203053/http://iqmediagroup.io/
+A responsive 2026 redesign derived from the archived IQ Media Group website. The redesign retains the original platform story and core capability areas while modernizing the content, layout and visual language.
 
-## Run
-Open `index.html` in a browser or serve this folder with any static web server.
+## Files
+- `index.html` — semantic page structure and content
+- `styles.css` — responsive design system, layout and reduced-motion treatment
+- `script.js` — accessible mobile navigation and dynamic copyright year
 
-## Updated contact details
-5667 Commerce Dr, Suite 2, Orlando, FL 32839
-Phone retained from archived capture: 321-287-7300.
+## Accessibility
+- Skip link and semantic landmarks
+- Descriptive navigation and image alternatives
+- Keyboard-visible focus states
+- Responsive layouts and readable text sizing
+- Reduced-motion preference support
+- Decorative visualizations hidden from assistive technology
 
-## Fidelity note
-The archived page's structure, copy, customer names, feature categories, testimonials, and dark-blue/cyan design direction have been recreated. The original image files and exact CSS/JavaScript were not retrievable in this environment, so visual artwork and customer wordmarks are locally recreated approximations. The archived email address was obscured in the text extraction and has not been guessed. No live contact form, analytics, or third-party tracking is included.
+## Before production launch
+- Confirm that IQ Media Group owns or has permission to use all brand marks and photography.
+- Replace the illustrative photography with approved brand imagery if required.
+- Confirm the preferred monitored email address. The current contact email is a clearly marked placeholder: `hello@iqmediagroup.io`.
+- Review all service descriptions, privacy practices, data processing and targeting claims with the business and legal teams.
+- Run a formal WCAG 2.2 AA audit with automated and manual keyboard/screen-reader testing.
+
+Contact address: 5667 Commerce Dr, Suite 2, Orlando, FL 32839
+Phone: 321-287-7300
